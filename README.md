@@ -2,6 +2,8 @@
 
 ## Usage
 
+Ingresando en modo terminal, dentro de la carpeta Working ejecutar el siguiente comando 
+
 ```
 python3 setup.py <odoo_version> <odoo_type>
 ```
