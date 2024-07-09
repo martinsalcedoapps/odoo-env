@@ -1,4 +1,7 @@
 # Odoo Environment Fast Creation
+## Download
+
+Clona el repositorio o descarga la carpeta Working.
 
 ## Usage
 
