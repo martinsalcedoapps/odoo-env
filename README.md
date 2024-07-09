@@ -1,11 +1,11 @@
 # Odoo Environment Fast Creation
 ## Download
 
-Clona el repositorio o descarga la carpeta Working.
+Clone the repository or download the Working folder.
 
 ## Usage
 
-Ingresando en modo terminal, dentro de la carpeta Working ejecutar el siguiente comando 
+Entering terminal mode, inside the Working folder execute the following command 
 
 ```
 python3 setup.py <odoo_version> <odoo_type>
