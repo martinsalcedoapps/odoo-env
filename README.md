@@ -20,3 +20,4 @@ python3 setup.py 17 ce
 ``` 
 python3 setup.py 17 ee
 ```
+You have to copy the enterprise folder separated
