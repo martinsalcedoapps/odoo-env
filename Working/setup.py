@@ -17,7 +17,7 @@ class Setup(object):
     def initialize(self):
         print("odoo_version: %s" % odoo_version)
         print("odoo_type   : %s" % odoo_type)
-        if not (odoo_version in ("14", "15", "16")):
+        if not (odoo_version in ("14", "15", "16", "17", "18")):
             print("Odoo Version not prepared yet")
             return False
         if not (odoo_type in ("ce", "ee")):
@@ -37,7 +37,7 @@ class Setup(object):
         os.system("sudo chmod -R 777 postgres/ odoo%s/" % odoo_version)
         os.system(f"cp config/odooVVTT.conf %s" % conf_file_path)
         os.system(f"cp config/server_odoo80VVTT.py %s " % odoo_file_path)
-        os.system(f"cp config/server_db50VV.py %s" %post_file_path )
+        os.system(f"cp config/server_db50VV.py %s" % post_file_path)
 
         conf_file_obj = open(conf_file_path, "r")
         conf_lines = []

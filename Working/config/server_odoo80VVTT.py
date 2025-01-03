@@ -17,7 +17,7 @@ cmd += '--name %s ' % (name)
 cmd += '-v %s/odooVVTT.conf:/etc/odoo/odoo.conf ' % (localpath)
 if name.endswith("ee"):
     cmd += '-v %s/enterprise:/mnt/enterprise ' % (localpath)
-cmd += '-v %s/extra-addons-py:/mnt/extra-addons ' % (localpath)
+cmd += '-v %s/extra-addons:/mnt/extra-addons ' % (localpath)
 cmd += '-v %s/var_lib_odoo:/var/lib/odoo ' % (localpath)
 
 cmd += '-p %s:8069 ' % (port)
