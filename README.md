@@ -13,8 +13,9 @@ python3 setup.py <odoo_version> <odoo_type>
 
 ## Examples
 ### Odoo16 Community Edition
-``` html
-<span style="color: green;">user@machine</span>:~/Working$ python3 setup.py 17 ce"
+```html
+<span style="color: green;">user@machine</span>:~/Working$ python3 setup.py 17 ce
+```
 
 ### Odoo16 Enterprise Edition
 ``` bash
