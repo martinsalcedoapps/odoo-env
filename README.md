@@ -14,11 +14,11 @@ python3 setup.py <odoo_version> <odoo_type>
 ## Examples
 ### Odoo16 Community Edition
 ```
-python3 setup.py 17 ce
+user@machine:~/Working$ python3 setup.py 17 ce
 ```
 ### Odoo16 Enterprise Edition
 ``` 
-python3 setup.py 17 ee
+user@machine:~/Working$ python3 setup.py 17 ee
 ```
 You have to copy the enterprise folder separated
 
@@ -49,11 +49,11 @@ The file `server_db5017.py` contains the docker run command for the container re
 # Running postgres
 
 ```
-python3 server_db5017.py
+user@machine:~/Working/odoo17$ python3 server_db5017.py
 ```
 
 # Running odoo17
 ```
-python3 server_odoo17ce.py
+user@machine:~/Working/postgres$ python3 server_odoo17ce.py
 ```
 
