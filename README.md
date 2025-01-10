@@ -32,7 +32,7 @@ odooXX
 
 The 'postgres' folder contains a db50XX, this is the postgres data folder to configure PG_DATA.
 
-The odooXX is the odoo application server folder. Creates a var_lib_odoo for odoo data persistence.
+The 'odooXX' is the odoo application server folder. Creates a var_lib_odoo for odoo data persistence.
 
 
 
