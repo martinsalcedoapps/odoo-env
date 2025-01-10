@@ -21,3 +21,17 @@ python3 setup.py 17 ce
 python3 setup.py 17 ee
 ```
 You have to copy the enterprise folder separated
+
+# Installation descripcion
+
+This script creates 2 folders inside the Working.
+
+postgres
+odooXX 
+
+The 'postgres' folder contains a db50XX, this is the postgres data folder to configure PG_DATA.
+
+The odooXX is the odoo application server folder. Creates a var_lib_odoo for odoo data persistence.
+
+
+
