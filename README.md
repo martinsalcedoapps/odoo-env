@@ -24,15 +24,27 @@ You have to copy the enterprise folder separated
 
 # Installation description
 
+```
+Working
+   \__ postgres
+          \__ db5017
+          \__ server_db5017.py
+    \__ odoo17
+          \__ var_lib_odoo 
+          \__ odoo17cece.conf
+          \__ server_odoo8017ce.py
+```
 This script creates 2 folders inside the Working.
 
-postgres
+`postgres`
 
-odooXX 
+`odoo17`
 
-The 'postgres' folder contains a db50XX, this is the postgres data folder to configure PG_DATA.
+The `postgres` folder contains a db50XX, this is the postgres data folder to configure PG_DATA.
 
-The 'odooXX' is the odoo application server folder. Creates a var_lib_odoo for odoo data persistence.
+The `odoo17` is the odoo application server folder. Creates a var_lib_odoo for odoo data persistence.
+
+The file `server_db5017.py` contains the docker run command for the container remove / creation / execution
 
 
 
