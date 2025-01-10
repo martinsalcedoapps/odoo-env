@@ -22,7 +22,7 @@ python3 setup.py 17 ee
 ```
 You have to copy the enterprise folder separated
 
-# Installation descripcion
+# Installation description
 
 This script creates 2 folders inside the Working.
 
