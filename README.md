@@ -27,6 +27,7 @@ You have to copy the enterprise folder separated
 This script creates 2 folders inside the Working.
 
 postgres
+
 odooXX 
 
 The 'postgres' folder contains a db50XX, this is the postgres data folder to configure PG_DATA.
