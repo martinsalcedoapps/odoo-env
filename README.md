@@ -14,7 +14,7 @@ python3 setup.py <odoo_version> <odoo_type>
 ## Examples
 ### Odoo16 Community Edition
 ``` bash
-\e[32muser@machine:\e[34m~/Working$\e[0m python3 setup.py 17 ce
+echo -e "\e[32muser@machine:\e[34m~/Working$\e[0m python3 setup.py 17 ce"
 ```
 ### Odoo16 Enterprise Edition
 ``` bash
