@@ -11,7 +11,6 @@ if allparams:
     odoo_version = str(sys.argv[1])
     odoo_type = str(sys.argv[2]).lower()
 
-
 class Setup(object):
 
     def initialize(self):
@@ -26,6 +25,7 @@ class Setup(object):
         print(odoo_version)
         os.makedirs("postgres/db50%s" % odoo_version, exist_ok=True)
         os.makedirs("odoo%s/var_lib_odoo" % odoo_version, exist_ok=True)
+        os.makedirs("odoo%s/extra-addons" % odoo_version, exist_ok=True)
 
         conf_file = f"odoo{odoo_version}{odoo_type}.conf"
         conf_file_path = f"odoo{odoo_version}/{conf_file}"
