@@ -52,7 +52,7 @@ This script creates 2 folders inside the Working.
 
 The `postgres` folder contains a `db5017`, this is the postgres data folder to configure PG_DATA.
 
-The `odoo17` is the odoo application server folder. Creates a `var_lib_odoo` for odoo data persistence.
+The `odoo17` is the odoo application server folder. Inside you must create a `var_lib_odoo` for odoo data persistence and 'extra-addons' to copy your customized addons.
 
 The file `server_db5017.py` contains the docker run command for the container remove / creation / execution
 
