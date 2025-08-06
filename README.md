@@ -41,7 +41,7 @@ Working
           \__ server_db5017.py
     \__ odoo17
           \__ var_lib_odoo 
-          \__ odoo17cece.conf
+          \__ odoo17ce.conf
           \__ server_odoo8017ce.py
 ```
 This script creates 2 folders inside the Working.
@@ -55,6 +55,15 @@ The `postgres` folder contains a `db5017`, this is the postgres data folder to c
 The `odoo17` is the odoo application server folder. Inside you must create a `var_lib_odoo` for odoo data persistence and 'extra-addons' to copy your customized addons.
 
 The file `server_db5017.py` contains the docker run command for the container remove / creation / execution
+
+# Enterprise environment
+If your have an enterprise code, you can download the 'enterprise' folder an copy it inside the 'odoo17' folder. Then add the folder in addons-path in the odoo17ce.conf, to have like this:
+
+```
+[options]
+addons_path = /mnt/enterprise, /mnt/extra-addons
+```
+
 
 # Running postgres
 
