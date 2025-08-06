@@ -3,6 +3,15 @@
 
 Clone the repository or download the Working folder.
 
+## Pre-requisites
+
+Install the linux packages to download de github repository and run docker instances.
+The package *mc* is recomended to navigate into linux folders
+
+```
+apt-get install git docker.io mc
+```
+
 ## Usage
 
 Entering terminal mode, inside the Working folder execute the following command 
