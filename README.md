@@ -57,7 +57,7 @@ The `odoo17` is the odoo application server folder. Inside you must create a `va
 The file `server_db5017.py` contains the docker run command for the container remove / creation / execution
 
 # Enterprise environment
-If your have an enterprise code, you can download the 'enterprise' folder an copy it inside the 'odoo17' folder. Then add the folder in addons-path in the odoo17ce.conf, to have like this:
+If your have an enterprise code, you can download the `enterprise` folder an copy it inside the `odoo17` folder. Then add the folder in addons-path in the `odoo17ee.conf`, to have like this:
 
 ```
 [options]
