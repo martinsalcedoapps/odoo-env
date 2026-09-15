@@ -16,7 +16,7 @@ class Setup(object):
     def initialize(self):
         print("odoo_version: %s" % odoo_version)
         print("odoo_type   : %s" % odoo_type)
-        if not (odoo_version in ("14", "15", "16", "17", "18")):
+        if not (odoo_version in ("14", "15", "16", "17", "18", "19")):
             print("Odoo Version not prepared yet")
             return False
         if not (odoo_type in ("ce", "ee")):
